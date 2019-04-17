@@ -10,14 +10,18 @@ class App extends Component {
     return (
       <Router basename={process.env.PUBLIC_URL}>
       <div>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
+        <nav className="navbar">
+          <div className="container">
+            <ul>
+              <li>
+                <Link to="/">Home</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact</Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/contact" component={Contact} />
