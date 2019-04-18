@@ -52,14 +52,23 @@ body, html {
   display: inline-block;
 }
 
-.navbar ul li a {
+.navbar a {
+  padding: 15px;
+  font-size: 14px;
+  text-decoration: none !important;
+  color: #000;
+  display: block;
+  transition: background-color .3s;
+}
+
+/* .navbar ul li a {
   padding: 15px;
   font-size: 14px;
   text-decoration: none;
   color: #000;
   display: block;
   transition: background-color .3s;
-}
+} */
 
 .navbar ul li a:hover, .navbar ul li a.active {
   color: #fff;
