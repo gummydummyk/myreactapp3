@@ -31,7 +31,7 @@ class Header extends Component {
     render() {
         return(
             <div>
-                <Navbar light expand="md">
+                {/* <Navbar light expand="md">
                     <Container>
                     <NavLink exact to="/">Home</NavLink>
                     <NavbarToggler onClick={this.toggle} />
@@ -63,8 +63,8 @@ class Header extends Component {
                         </Nav>
                     </Collapse>
                     </Container>
-                </Navbar>
-                {/* <nav className="navbar">
+                </Navbar> */}
+                <nav className="navbar">
                     <div className="container">
                         <ul>
                             <li><NavLink exact to="/">Home</NavLink></li>
@@ -72,7 +72,7 @@ class Header extends Component {
                             <li><NavLink to="/about">About</NavLink></li>
                         </ul>
                     </div>
-                </nav> */}
+                </nav>
             </div>
         );
     }
