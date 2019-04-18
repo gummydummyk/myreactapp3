@@ -59,7 +59,7 @@ body, html {
   transition: background-color .3s;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:hover, .navbar ul li a.active {
   color: #fff;
   background-color: #000;
 }
