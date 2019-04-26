@@ -6,13 +6,18 @@
   "proxy": "http://localhost:8080",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
     "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-id-swiper": "^2.1.2",
+    "react-owl-carousel2": "^0.3.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "2.1.8",
     "reactstrap": "^8.0.0",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.0",
+    "swiper": "^4.5.0"
   },
   "scripts": {
     "predeploy": "npm run build",
